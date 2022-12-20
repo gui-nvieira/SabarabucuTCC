@@ -227,10 +227,42 @@ button {
 .header_section {
   width: 100%;
   float: left;
-  background-image: url(../images/banner-bg.png);
+  background-image: url(../images/mobile-bg.png);
   height: auto;
   background-size: 100%;
   padding: 0px 0px 20px 0px;
+}
+
+.img-start {
+  display: flex;
+}
+
+.separator {
+  display: none;
+  padding-top: 2rem;
+}
+@media screen and (max-width: 760px) {
+  .img-start {
+    display: none;
+  }
+  .timeliness {
+    margin-top: 20px;
+  }
+  .separator {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .separator {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0;
+  }
 }
 
 .bg-light {
@@ -1119,7 +1151,7 @@ button {
   }
 }
 
-/* slider css */
+/* ------------------------------- slider css ----------------------------------*/
 
 .ftco-section {
   padding: 7em 0;
@@ -1304,9 +1336,8 @@ button {
   padding-top: 0;
 }
 .work .text h3 {
-  font-size: 34px;
+  font-size: 25px;
   font-weight: 400;
-  font-family: "Playfair Display", serif;
   margin-bottom: 0;
 }
 .work .text h3 a {
@@ -1322,4 +1353,37 @@ button {
   letter-spacing: 1px;
   display: inline-block;
   margin-bottom: 5px;
+}
+
+.parallax {
+  padding: 70px 0;
+  background-image: url(../images/about-img.png);
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info-text {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.192);
+}
+
+.info-header {
+  width: 100%;
+  float: left;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.192);
 }
