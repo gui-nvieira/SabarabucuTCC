@@ -487,6 +487,7 @@
     background-image: url(../images/mobile-bg.png);
     background-size: cover;
     padding: 0px;
+    margin-top: 0px;
   }
   .navbar-toggler {
     background-color: #ffffff;
@@ -572,6 +573,7 @@
     background-image: url(../images/blog-mobile-bg.png);
     background-size: cover;
     padding: 50px 0px;
+    margin: 30px 0px;
   }
   .blog_text {
     width: 100%;
@@ -662,5 +664,12 @@
     width: 100%;
     padding-top: 90px;
     font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .blog_section {
+    padding-bottom: 380px;
+    padding-top: 300px;
   }
 }

@@ -223,6 +223,9 @@ button {
 }
 
 /* header section start */
+.comma {
+  visibility: hidden;
+}
 
 .header_section {
   width: 100%;
@@ -230,38 +233,15 @@ button {
   background-image: url(../images/mobile-bg.png);
   height: auto;
   background-size: 100%;
-  padding: 0px 0px 20px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
-.img-start {
-  display: flex;
-}
-
-.separator {
-  display: none;
-  padding-top: 2rem;
-}
 @media screen and (max-width: 760px) {
   .img-start {
     display: none;
   }
   .timeliness {
     margin-top: 20px;
-  }
-  .separator {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    opacity: 0;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .separator {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    opacity: 0;
   }
 }
 
@@ -383,7 +363,7 @@ button {
 .banner_taital {
   width: 100%;
   float: left;
-  font-size: 50px;
+  font-size: 85px;
   color: #ffffff;
   font-weight: bold;
   text-align: center;
@@ -570,8 +550,8 @@ button {
   height: auto;
   background-repeat: no-repeat;
   background-size: 100%;
-  padding-bottom: 345px;
-  padding-top: 200px;
+  padding-bottom: 285px;
+  padding-top: 250px;
 }
 
 .blog_taital {
@@ -580,8 +560,9 @@ button {
   font-size: 60px;
   color: #ffffff;
   font-weight: bold;
-  padding-top: 30px;
+  padding-top: 50px;
   text-align: center;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .blog_text {
@@ -591,6 +572,7 @@ button {
   color: #ffffff;
   padding-top: 40px;
   text-align: center;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .play_icon_main {
