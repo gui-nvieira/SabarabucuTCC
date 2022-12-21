@@ -354,6 +354,7 @@ button {
   font-size: 85px;
   color: #ffffff;
   font-weight: bold;
+  padding: 0 60px;
   text-align: center;
   text-transform: uppercase;
   font-family: "Righteous", Regular;
