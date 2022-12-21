@@ -214,7 +214,7 @@ button {
 }
 
 .layout_padding {
-  padding-top: 90px;
+  padding-top: 20px;
   padding-bottom: 0px;
 }
 
@@ -345,7 +345,7 @@ button {
 .banner_section {
   width: 100%;
   float: left;
-  padding-bottom: 305px;
+  padding-bottom: 40px;
 }
 
 .banner_taital {
@@ -1369,4 +1369,11 @@ button {
   .timeliness {
     margin-top: 20px;
   }
+}
+
+.svg {
+  margin-bottom: -2px;
+  width: 115%;
+  position: relative;
+  transform: translate(-10%, 0%);
 }
