@@ -223,9 +223,6 @@ button {
 }
 
 /* header section start */
-.comma {
-  visibility: hidden;
-}
 
 .header_section {
   width: 100%;
@@ -234,15 +231,6 @@ button {
   height: auto;
   background-size: 100%;
   padding: 0px 0px 0px 0px;
-}
-
-@media screen and (max-width: 760px) {
-  .img-start {
-    display: none;
-  }
-  .timeliness {
-    margin-top: 20px;
-  }
 }
 
 .bg-light {
@@ -1367,4 +1355,17 @@ button {
   font-weight: bold;
   text-align: center;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.192);
+}
+
+.comma {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 760px) {
+  .img-start {
+    display: none;
+  }
+  .timeliness {
+    margin-top: 20px;
+  }
 }

@@ -666,7 +666,7 @@
     font-weight: bold;
   }
 }
-
+/* fixing video on 1920*1080 */
 @media screen and (min-width: 1400px) {
   .blog_section {
     padding-bottom: 380px;
