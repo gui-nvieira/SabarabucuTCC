@@ -344,7 +344,7 @@
     width: 100%;
   }
   .banner_section {
-    padding: 50px 0px;
+    padding-top: 50px;
   }
   .services_section {
     padding: 50px 0px;
@@ -667,11 +667,18 @@
     padding-top: 90px;
     font-weight: bold;
   }
+  .svg {
+    display: none;
+  }
 }
 /* fixing video on 1920*1080 */
 @media screen and (min-width: 1400px) {
   .blog_section {
     padding-bottom: 380px;
     padding-top: 300px;
+  }
+
+  .svg {
+    height: 200px;
   }
 }

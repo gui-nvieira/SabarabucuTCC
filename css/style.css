@@ -345,7 +345,7 @@ button {
 .banner_section {
   width: 100%;
   float: left;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
 }
 
 .banner_taital {
@@ -1372,8 +1372,11 @@ button {
 }
 
 .svg {
-  margin-bottom: -2px;
-  width: 115%;
-  position: relative;
-  transform: translate(-10%, 0%);
+  display: flex;
+  height: 140px;
+  width: 100%;
+  background-image: url(/images/montains.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
 }
