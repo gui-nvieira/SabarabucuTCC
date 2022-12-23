@@ -136,6 +136,10 @@
     padding-left: 25px;
     padding-top: 40px;
   }
+  .about_taital_main2 {
+    padding-left: 25px;
+    padding-top: 40px;
+  }
   .about_text {
     padding-top: 0px;
     font-size: 14px;
@@ -203,6 +207,10 @@
     width: 100%;
   }
   .about_taital_main {
+    padding-left: 25px;
+    padding-top: 0px;
+  }
+  .about_taital_main2 {
     padding-left: 25px;
     padding-top: 0px;
   }
@@ -359,6 +367,10 @@
     padding: 50px 0px;
   }
   .about_taital_main {
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+  .about_taital_main2 {
     padding-top: 0px;
     padding-left: 0px;
   }
@@ -562,6 +574,10 @@
     padding-top: 0px;
     padding-left: 0px;
   }
+  .about_taital_main2 {
+    padding-top: 0px;
+    padding-left: 0px;
+  }
   .about_text {
     font-size: 15px;
   }
@@ -680,5 +696,27 @@
 
   .svg {
     height: 200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img-start4 {
+    display: none;
+  }
+
+  .img-start3 {
+    display: block;
+    padding-bottom: 25px;
+  }
+  .text-header {
+    padding-top: 0;
+    padding-left: 10px;
+  }
+  .blog-content {
+    text-align: left;
+    padding-bottom: 0;
+  }
+  .about_taital_main2 {
+    padding-top: 0;
   }
 }
