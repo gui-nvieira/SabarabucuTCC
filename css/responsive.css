@@ -718,5 +718,6 @@
   }
   .about_taital_main2 {
     padding-top: 0;
+    display: block;
   }
 }
